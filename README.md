@@ -22,6 +22,7 @@ without any TBAD zone-labeled training data.
 ## Models
 - Zone model:  nnUNet ResEncM, Dataset504, 2-channel (binary + Z-position)
 - TL/FL model: nnUNet ResEncL, Dataset505, ImageTBAD(100) + figshare(40) cases
+- AVT model:   nnUNet Dataset501, pre-trained AortaSeg24, outer wall + branches, Dice 0.93
 
 ## Requirements
 - Python 3.10+
