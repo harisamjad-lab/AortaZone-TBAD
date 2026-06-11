@@ -1,4 +1,4 @@
-# AortaZone ? Automatic Anatomical Zone Labeling for Type B Aortic Dissection
+# Automatic Anatomical Zone Labeling for Type B Aortic Dissection
 
 ## Overview
 End-to-end pipeline for automatically labeling 19 anatomical zones (Z1-Z17) on TBAD CTA scans
