@@ -1,12 +1,12 @@
 # Datasets Used
 
-## Zone Model Training (Dataset504 ? AortaZone V2)
+## Zone Model Training (Dataset504 - AortaZone V2)
 - AortaSeg24: 100 healthy aorta CTA scans with 23-zone labels
 - Source: AortaSeg24 challenge (https://aortaseg24.grand-challenge.org/)
 - Preprocessing: binary mask + Z-position channel (2-channel input)
 - Labels: Z1-Z17 anatomical zones (mapped from 23-zone to 17-zone)
 
-## TL/FL Model Training (Dataset505 ? merged)
+## TL/FL Model Training (Dataset505 - merged)
 - ImageTBAD: 100 TBAD CTA cases with TL/FL/FLT labels
   - Source: Yao et al. 2021, PubMed PMID 34646158
   - Preprocessing: resampled to 1.0mm isotropic, GT ROI crop + 20mm margin
@@ -20,7 +20,7 @@
 - These cases are NOT in the Dataset505 training split (held out)
 - Used for qualitative zone labeling evaluation
 
-## AVT Dataset (outer aorta wall model ? Dataset501)
+## AVT Dataset (outer aorta wall model - Dataset501)
 - AVT: 56 healthy aorta CTA scans
 - Source: Radiology AI figshare (https://figshare.com/articles/dataset/ct_segmentation/14912436)
 - Used for AVT nnUNet model (pre-trained, not retrained in this project)
