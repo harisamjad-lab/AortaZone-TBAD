@@ -1,0 +1,19 @@
+# Core
+numpy
+nibabel
+scipy
+scikit-image
+networkx
+plotly
+
+# Deep learning
+torch>=2.0
+monai>=1.0
+
+# nnU-Net v2
+nnunetv2
+
+# Utilities
+SimpleITK
+pandas
+matplotlib

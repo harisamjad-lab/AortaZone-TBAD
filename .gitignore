@@ -1,0 +1,29 @@
+# Large data files
+*.nii.gz
+*.nii
+*.nrrd
+*.pth
+*.pt
+*.pkl
+*.h5
+
+# nnUNet preprocessed/results (too large)
+nnUNet_preprocessed/
+nnUNet_results/
+nnUNet_raw/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.zip
+
+# Outputs (HTML figures, predictions)
+outputs/
+predictions/
+
+# IDE
+.vscode/
+.idea/
